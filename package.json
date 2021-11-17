@@ -1,0 +1,22 @@
+{
+  "name": "ts-session",
+  "version": "1.0.0",
+  "main": "/build/index.ts",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14",
+    "typescript": "^4.4.4"
+  }
+}
